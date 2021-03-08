@@ -2,9 +2,13 @@
 <h1 class="code-line" data-line-start=0 data-line-end=1><a id="Common_PythonJupyter_commands_0"></a>Common Python/Jupyter commands</h1>
 <h4 class="code-line" data-line-start=1 data-line-end=2><a id="Doug_Ollerenshaw_1"></a>Doug Ollerenshaw</h4>
 <p class="has-line-data" data-line-start="4" data-line-end="5">Below is a collection of common Python/Jupyter commands that I find myself continually searching for. I’m putting them here so I can have an easy single reference</p>
-<h2 class="code-line" data-line-start=7 data-line-end=8><a id="Make_Jupyter_use_full_screen_width_7"></a>Make Jupyter use full screen width</h2>
+<h2 class="code-line" data-line-start=7 data-line-end=8><a id="Make_Jupyter_use_full_screen_width_7"></a>Make Jupyter full screen width</h2>
 <pre><code class="has-line-data" data-line-start="10" data-line-end="13">from IPython.core.display import display, HTML
 display(HTML(&quot;&lt;style&gt;.container { width:100% !important; }&lt;/style&gt;&quot;))
+</code></pre>
+<h2 class="code-line" data-line-start=7 data-line-end=8><a id="Force_jupyter_watch_7"></a>Set Jupyter in autoreload mode</h2>
+<pre><code class="has-line-data" data-line-start="10" data-line-end="13">%load_ext autoreload%
+%autoreload 2%
 </code></pre>
 <h2 class="code-line" data-line-start=14 data-line-end=15><a id="Control_Pandas_display_properties_14"></a>Control Pandas display properties</h2>
 <pre><code class="has-line-data" data-line-start="16" data-line-end="21">import pandas as pd
