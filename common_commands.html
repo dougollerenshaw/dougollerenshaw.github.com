@@ -1,0 +1,21 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Common Python_Jupyter commands.md</title><style></style></head><body id="preview">
+<h1 class="code-line" data-line-start=0 data-line-end=1><a id="Common_PythonJupyter_commands_0"></a>Common Python/Jupyter commands</h1>
+<h4 class="code-line" data-line-start=1 data-line-end=2><a id="Doug_Ollerenshaw_1"></a>Doug Ollerenshaw</h4>
+<h4 class="code-line" data-line-start=2 data-line-end=3><a id="dougoalleninstituteorg_2"></a><a href="/cdn-cgi/l/email-protection#e1858e94868ea1808d8d848f888f92958895949584cf8e9386"><span class="__cf_email__" data-cfemail="0b6f647e6c644b6a67676e656265787f627f7e7f6e2564796c">[email&#160;protected]</span></a></h4>
+<p class="has-line-data" data-line-start="4" data-line-end="5">Below is a collection of common Python/Jupyter commands that I find myself continually searching for. I’m putting them here so I can have an easy single reference</p>
+<h2 class="code-line" data-line-start=7 data-line-end=8><a id="Make_Jupyter_use_full_screen_width_7"></a>Make Jupyter use full screen width</h2>
+<pre><code class="has-line-data" data-line-start="10" data-line-end="13">from IPython.core.display import display, HTML
+display(HTML(&quot;&lt;style&gt;.container { width:100% !important; }&lt;/style&gt;&quot;))
+</code></pre>
+<h2 class="code-line" data-line-start=14 data-line-end=15><a id="Control_Pandas_display_properties_14"></a>Control Pandas display properties</h2>
+<pre><code class="has-line-data" data-line-start="16" data-line-end="21">import pandas as pd
+pd.set_option('display.max_rows', 500)
+pd.set_option('display.max_columns', 500)
+pd.set_option('display.width', 1000)
+</code></pre>
+<h2 class="code-line" data-line-start=22 data-line-end=23><a id="Make_conda_environments_visible_in_Jupyter_dropdown_menu_22"></a>Make conda environments visible in Jupyter dropdown menu</h2>
+<pre><code class="has-line-data" data-line-start="24" data-line-end="28" class="language-shell">conda activate myenv
+pip install ipykernel
+python -m ipykernel install --user --name myenv
+</code></pre>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body></html>
