@@ -1,7 +1,6 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><title>Common Python_Jupyter commands.md</title><style></style></head><body id="preview">
 <h1 class="code-line" data-line-start=0 data-line-end=1><a id="Common_PythonJupyter_commands_0"></a>Common Python/Jupyter commands</h1>
 <h4 class="code-line" data-line-start=1 data-line-end=2><a id="Doug_Ollerenshaw_1"></a>Doug Ollerenshaw</h4>
-<h4 class="code-line" data-line-start=2 data-line-end=3><a id="dougoalleninstituteorg_2"></a><a href="/cdn-cgi/l/email-protection#2d4942584a426d4c4141484344435e59445958594803425f4a"><span class="__cf_email__" data-cfemail="9df9f2e8faf2ddfcf1f1f8f3f4f3eee9f4e9e8e9f8b3f2effa">[email&#160;protected]</span></a></h4>
 <p class="has-line-data" data-line-start="4" data-line-end="5">Below is a collection of common Python/Jupyter commands that I find myself continually searching for. I’m putting them here so I can have an easy single reference</p>
 <h2 class="code-line" data-line-start=6 data-line-end=7><a id="Standard_imports_6"></a>Standard imports</h2>
 <pre><code class="has-line-data" data-line-start="9" data-line-end="16">import numpy as np
@@ -30,4 +29,7 @@ pd.set_option('display.width', 1000)
 pip install ipykernel
 python -m ipykernel install --user --name myenv
 </code></pre>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body></html>
+<h2 class="code-line" data-line-start=41 data-line-end=43><a id="upload_to_pypi"></a>Upload to pypi</h2>
+<pre><code class="has-line-data" data-line-start="41" data-line-end="43" class="language-shell">
+python setup.py sdist
+twine upload dist/*
