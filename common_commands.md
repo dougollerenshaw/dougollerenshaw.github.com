@@ -50,3 +50,8 @@ python -m ipykernel install --user --name myenv
 python setup.py sdist
 twine upload dist/*
 ```
+
+## Convert a Jupyter Notebook to html
+```
+$ jupyter nbconvert --to FORMAT notebook.ipynb
+```
