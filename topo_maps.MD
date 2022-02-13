@@ -1,7 +1,7 @@
 # Topo map links
 
 ## Maps with slope shading
-Snoqualmie Pass:
+Snoqualmie Pass:  
 https://dougollerenshaw.github.io/topo_maps/Snoqualmie_Pass_topo.pdf
 
 Silver Peak and Humpback Mountain (just west of Snoqualmie Pass):
